@@ -1,0 +1,44 @@
+{% extends 'base.html' %}
+{% block content %}
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Contact Us - Samson Online Shopping</title>
+    
+</head>
+<body>
+
+<header>
+    <h1>Contact Samson Online Shopping</h1>
+</header>
+
+<div class="content">
+    <p>If you have any inquiries or need assistance, feel free to contact us.</p>
+
+    <h2>Contact Information</h2>
+    <ul>
+        <li><strong>Email:</strong> info@samsononlineshopping.com</li>
+        <li><strong>Phone:</strong> 1-800-123-4567</li>
+        <li><strong>Address:</strong> 1234 Elm St, Cityville, ST 12345</li>
+    </ul>
+
+    <h2>Contact Form</h2>
+    <form action="{% url 'shop:contact' %}" method="post">  <!-- Updated form action -->
+        {% csrf_token %}
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br>
+
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message" rows="4" cols="50" required></textarea><br>
+
+        <input type="submit" value="Submit">
+    </form>
+</div>
+</body>
+</html>
+
+{% endblock %}

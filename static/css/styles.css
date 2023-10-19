@@ -1,0 +1,379 @@
+body {
+    font-family: 'Playfair Display', serif;
+    font-family: 'Tilt Neon', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.content {
+    margin: 20px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+ul li strong {
+    display: inline-block;
+    width: 100px;
+}
+
+form {
+    width: 50%;
+    margin: 20px auto;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+form input[type="submit"] {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+    background-color: #555;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    /* position: fixed; */
+    width: 100%;
+    bottom: 0;
+}
+header {
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .img1 {
+    width: 200px;
+    border-radius: 50%; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  /* Custom styles for the navbar */
+.navbar {
+    background-color: #2C3E50; /* Dark blue background */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Box shadow for navbar */
+}
+
+.navbar-brand, .nav-link {
+    color: #FFFFFF !important; /* White text */
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+    color: #1ABC9C !important; /* Hover color */
+}
+
+.dropdown-menu {
+    background-color: #2C3E50; /* Dark blue background for the dropdown menu */
+}
+
+.dropdown-item {
+    color: #FFFFFF !important; /* White text for dropdown items */
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.dropdown-item:hover {
+    background-color: #1ABC9C; /* Hover color for dropdown items */
+    color: #FFFFFF !important; /* Text color on hover */
+}
+
+/* Dark theme for the search input */
+.form-control {
+    background-color: #34495E; /* Dark background for the search input */
+    color: #FFFFFF; /* Text color */
+    border: 1px solid #1ABC9C; /* Border color */
+}
+
+/* Styles for the search button */
+.btn-outline-success {
+    color: #1ABC9C; /* Button text color */
+    border-color: #1ABC9C; /* Button border color */
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.btn-outline-success:hover {
+    background-color: #1ABC9C; /* Hover background color */
+    color: #FFFFFF; /* Hover text color */
+}
+/* Style for the header */
+header {
+    background-color: #333; /* Adjust the background color as needed */
+    padding: 20px; /* Adjust the padding as needed */
+  }
+  
+  /* Style for the image */
+  .img1 {
+    width: 100px; /* Adjust the width of the image */
+    height: auto; /* Maintain aspect ratio */
+  }
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.products-header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.products-header a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+.category-info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.category-image {
+    width: 200px;
+    height: auto;
+    margin-right: 20px;
+}
+
+.category-details {
+    flex: 1;
+}
+
+.banner img {
+    width: 100%;
+    height: auto;
+}
+
+.banner-text {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.product-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.product-item {
+    border: 1px solid #ccc;
+    margin: 10px;
+    padding: 10px;
+    width: 200px;
+    text-align: center;
+    
+}
+
+.product-item a {
+    text-decoration: none;
+    color: #333;
+}
+
+.product-image {
+    width: 100%;
+    height: auto;
+}
+
+.product-details {
+    margin-top: 10px;
+}
+.product-details-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.breadcrumbs {
+    margin-bottom: 10px;
+}
+
+.breadcrumbs a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+.product-info {
+    display: flex;
+}
+
+.product-image {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.product-image img {
+    width: 100%;
+    height: auto;
+}
+
+.product-description {
+    flex: 2;
+}
+
+.product-description h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.product-description .price {
+    font-size: 18px;
+    color: green;
+    margin-bottom: 10px;
+}
+
+.product-description .description-header {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.product-description .description {
+    margin-bottom: 10px;
+}
+
+.product-description .out-of-stock {
+    color: red;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.add-to-cart-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.add-to-cart-button:hover {
+    background-color: #0056b3;
+}
+/* Add your CSS styles here */
+
+/* Add more styles as needed */
+.search-container {
+    padding: 10px;
+    background-color: #f0f0f0;
+    margin-bottom: 20px;
+}
+
+.search-container p {
+    margin: 0;
+}
+
+.product-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.product-item {
+    border: 1px solid #ccc;
+    margin: 10px;
+    padding: 10px;
+    width: 200px;
+}
+
+.product-item a {
+    text-decoration: none;
+    color: #000;
+}
+
+.product-item a:hover {
+    text-decoration: underline;
+}
+
+.product-image {
+    max-width: 100%;
+}
+
+.product-details h4 {
+    margin: 0;
+}
+
+.product-details p {
+    margin: 0;
+}
+/* Apply styles to the cart page */
+.cart-page {
+    padding: 20px;
+}
+
+/* Style the empty cart message */
+.cart-empty {
+    text-align: center;
+    padding: 20px;
+}
+
+/* Style the cart header */
+.cart-header {
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Style the cart items */
+.cart-items {
+    margin-bottom: 20px;
+}
+
+/* Style the cart table */
+.cart-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.cart-table th, .cart-table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+}
+
+/* Style the cart summary */
+.cart-summary {
+    border: 1px solid #ccc;
+    padding: 20px;
+    text-align: center;
+}
+
+.summary-table {
+    width: 100%;
+}
+
+/* Style the checkout message */
+.checkout-message {
+    margin-bottom: 20px;
+}
+
+/* Style the checkout button */
+.checkout-button {
+    text-align: center;
+}
